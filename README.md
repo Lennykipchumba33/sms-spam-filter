@@ -17,6 +17,6 @@ pip install -r requirements.txt
 python -m src.train --data data/SMSSpamCollection
 ```
 
-The model uses TF-IDF word and character features with logistic regression and reports precision, recall, F1, and a confusion matrix. The split is stratified, but deployment drift is not modeled.
+The model uses TF-IDF word n-gram features with logistic regression and reports precision, recall, F1, and a confusion matrix. The split is stratified, but deployment drift is not modeled.
 
 The original code is MIT-licensed; the dataset remains under its source terms.
